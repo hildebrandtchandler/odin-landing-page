@@ -26,7 +26,7 @@ button {
     padding: 8px;
 }
 
-.hero, .middle, .bottom, .footer, .header {
+.hero, .second-part, .quote-section, .footer, .header {
     padding-left: 50px;
     padding-right: 50px;
 }
@@ -111,4 +111,35 @@ button {
     justify-content: center;
     align-items: center;
     text-align: center;
+}
+
+.quote-section{
+    background-color: #E5E7EB;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1000px;
+}
+
+#quote {
+    font-size: 36px;
+    font-style: oblique 12deg;
+    color: #1f2937;
+}
+
+#quotefrom {
+    justify-self: flex-end;
+    align-self: flex-end;
+    color: #3882F6;
+    font-size: 24px;
+    font-weight: bold;
 }
