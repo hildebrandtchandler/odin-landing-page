@@ -164,10 +164,12 @@ button {
 
 .banner button {
     background-color: #1f2937;
-    align-self: center;
     width: 100px;
 }
 
+.banner a {
+    align-self: center;
+}
 #banner-header {
     font-size: 24px;
 }
