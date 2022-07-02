@@ -143,3 +143,35 @@ button {
     font-size: 24px;
     font-weight: bold;
 }
+
+.trial {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-around;
+    min-width: 1000px;
+    flex-shrink: 0;
+}
+
+.banner button {
+    background-color: #1f2937;
+    align-self: center;
+    width: 100px;
+}
+
+#banner-header {
+    font-size: 24px;
+}
+
+#banner-content {
+    font-size: 18px;
+}
