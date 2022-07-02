@@ -175,3 +175,13 @@ button {
 #banner-content {
     font-size: 18px;
 }
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 1000px;
+    background-color: #1f2937;
+    color: #E5E7EB;
+    font-size: 18px;
+}
