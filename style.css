@@ -1,5 +1,6 @@
 html {
     margin: 0;
+    font-family: sans-serif;
 }
 
 body {
@@ -33,6 +34,7 @@ button {
     padding-top: 16px;
     background-color: #1f2937;
     color: #E5E7EB;
+    font-size: 18px;
 }
 
 .header {
@@ -48,4 +50,27 @@ button {
 #header-links {
     display: flex;
     gap: 48px;
+}
+
+.hero-content {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+}
+
+.hero-left-side {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 400px;
+    gap: 24px;
+}
+
+.hero-main-text {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
 }
