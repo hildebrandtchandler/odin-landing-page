@@ -1,0 +1,51 @@
+html {
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style-type: none;
+}
+
+button {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    font-weight: bold;
+    border-radius: 12px;
+    padding: 8px;
+}
+
+.hero, .middle, .bottom, .footer, .header {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.hero {
+    padding-top: 16px;
+    background-color: #1f2937;
+    color: #E5E7EB;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+#header-links {
+    display: flex;
+    gap: 48px;
+}
