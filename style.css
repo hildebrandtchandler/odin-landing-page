@@ -26,7 +26,7 @@ button {
     padding: 8px;
 }
 
-.hero, .second-part, .quote-section, .footer, .header {
+.hero, .second-part, .quote-section, .footer, .header, .trial {
     padding-left: 50px;
     padding-right: 50px;
 }
